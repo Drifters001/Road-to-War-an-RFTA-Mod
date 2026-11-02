@@ -1,0 +1,11 @@
+state = {
+    id = 1100
+    name = STATE_1100
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = FRA
+        add_core_of = FRA
+    }
+    provinces = { 9991 }
+}

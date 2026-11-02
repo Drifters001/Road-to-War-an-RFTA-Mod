@@ -1,0 +1,15 @@
+state = {
+    id = 1099
+    name = STATE_1099
+    manpower = 100000
+    state_category = rural
+    history = {
+        victory_points = { 11562 1 }
+                    owner= BEL
+                    set_victory_points = {
+                        province = 11562
+                        value = 1
+                    }
+    }
+    provinces = { 11562 }
+}

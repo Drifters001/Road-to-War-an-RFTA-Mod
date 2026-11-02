@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_potrait_Ferdinand_of_Flanders_Wallonia"
+		texturefile = "GFX/leaders/BEL/Duke Ferdinand of Flanders-Wallonia.tga"
+	}
+}

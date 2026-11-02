@@ -1,0 +1,29 @@
+capital = 9
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = CZE_Wilhelm_Solf
+GER = {
+    set_autonomy = {
+        target = CZE
+        autonomy_state = autonomy_integrated_puppet
+    }
+}
+# Politics selected in the builder
+set_politics = {
+    ruling_party = authoritarian_democratic
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 2
+    social_democratic = 3
+    liberalism = 75
+    conservatism = 5
+    authoritarian_democratic = 5
+    nationalism = 5
+    paternal_autocracy = 0
+    proto_fascist = 5
+}

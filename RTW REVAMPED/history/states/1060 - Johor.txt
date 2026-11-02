@@ -1,0 +1,38 @@
+state = {
+    id = 1060
+    name = STATE_1060
+    manpower = 1023100
+    state_category = town
+    resources = {
+        rubber = 40
+        steel = 2
+        aluminium = 2
+    }
+    history = {
+        owner = GER
+        add_core_of = MAL
+        victory_points = { 13376 2 }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            13376 = {
+                naval_base = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = GER
+            }
+        }
+    }
+    provinces = { 4424 10313 13376 7427 }
+    local_supplies = 0.0
+}

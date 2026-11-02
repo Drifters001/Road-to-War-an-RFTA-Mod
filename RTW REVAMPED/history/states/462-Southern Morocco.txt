@@ -1,0 +1,45 @@
+state = {
+    id = 462
+    name = STATE_462
+    manpower = 1865552
+    state_category = wasteland
+    history = {
+        owner = FRA
+        add_core_of = MOR
+        victory_points = { 4108 3 }
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 8038 1 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = GER
+                    set_state_controller_to = GER
+                    set_victory_points = {
+                        province = 8038
+                        value = 1
+                    }
+                }
+            }
+        }
+    }
+    provinces = { 1102 1152 1207 1989 4022 4108 4154 4933 5046 7203 7908 7958 8046 10107 4920 8111 8038 }
+    local_supplies = 0.0
+}

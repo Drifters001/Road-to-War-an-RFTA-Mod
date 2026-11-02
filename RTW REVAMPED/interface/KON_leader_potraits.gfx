@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Alfonso_the_Third_of_Naples"
+		texturefile = "GFX/leaders/KON/AlfonsotheThirdofNaples.tga/"
+	}
+}

@@ -1,0 +1,43 @@
+state = {
+    id = 765
+    name = STATE_765
+    manpower = 51600
+    state_category = pastoral
+    history = {
+        owner = ENG
+        add_core_of = QAT
+        victory_points = { 8051 1 }
+        buildings = {
+            infrastructure = 1
+            8051 = {
+                naval_base = 2
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = OMA
+                    set_state_controller_to = OMA
+                }
+            }
+        }
+    }
+    provinces = { 8051 }
+    local_supplies = 0.0
+}

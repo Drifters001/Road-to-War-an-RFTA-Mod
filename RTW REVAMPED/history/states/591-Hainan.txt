@@ -1,0 +1,36 @@
+state = {
+    id = 591
+    name = STATE_591
+    manpower = 3480000
+    state_category = town
+    history = {
+        owner = FRA
+        add_core_of = GXC
+        add_core_of = CHI
+        add_core_of = PRC
+        victory_points = { 1070 2 }
+        victory_points = { 994 1 }
+        buildings = {
+            infrastructure = 1
+            air_base = 1
+            1070 = {
+                naval_base = 2
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = FRA
+            }
+        }
+    }
+    provinces = { 994 1038 1070 11963 11990 }
+    local_supplies = 1.0
+}

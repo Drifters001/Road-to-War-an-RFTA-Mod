@@ -1,0 +1,44 @@
+state = {
+    id = 846
+    name = STATE_846
+    manpower = 160553
+    state_category = town
+    resources = {
+        aluminium = 15
+    }
+    history = {
+        owner = SWI
+        victory_points = { 9600 1 }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+        }
+        add_core_of = SWI
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = RSP
+                    set_state_controller_to = RSP
+                }
+            }
+        }
+    }
+    provinces = { 9600 3641 }
+    local_supplies = 0.0
+}

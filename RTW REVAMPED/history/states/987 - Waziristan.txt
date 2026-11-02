@@ -1,0 +1,48 @@
+state = {
+    id = 987
+    name = STATE_987
+    manpower = 217974
+    state_category = rural
+    resources = {
+    }
+    history = {
+        owner = RAJ
+        buildings = {
+        }
+        add_core_of = NWF
+        add_core_of = PAK
+        add_core_of = KHL
+        set_compliance = 0
+        start_resistance = yes
+        set_resistance = 70
+        buildings = {
+            infrastructure = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = AFG
+                    set_state_controller_to = AFG
+                }
+            }
+        }
+    }
+    provinces = { 1107 1978 4998 7975 }
+    local_supplies = 0.0
+}

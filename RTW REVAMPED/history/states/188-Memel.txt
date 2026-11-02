@@ -1,0 +1,43 @@
+state = {
+    id = 188
+    name = STATE_188
+    manpower = 150000
+    state_category = rural
+    history = {
+        owner = SWE
+        victory_points = { 3288 3 }
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            3288 = {
+                naval_base = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = GER
+                    set_state_controller_to = GER
+                }
+            }
+        }
+    }
+    provinces = { 3288 }
+    local_supplies = 0.0
+}

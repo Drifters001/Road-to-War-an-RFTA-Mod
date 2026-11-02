@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_potrait_Bogdan_von_Hutten_Czapski"
+		texturefile = "GFX/leaders/POL/BogdanvonHuttenCzapski.tga"
+	}
+}

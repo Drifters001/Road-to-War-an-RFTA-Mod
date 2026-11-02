@@ -1,0 +1,18 @@
+add_namespace = cosmetic_tag_events
+
+country_event = {
+    id = cosmetic_tag_events.1
+
+    trigger = {
+        has_cosmetic_tag = RSP_ITA
+        NOT = {
+            KON = {
+                is_subject_of = ROOT
+            }
+        }
+    }
+
+    immediate = {
+        drop_cosmetic_tag = yes
+    }
+}

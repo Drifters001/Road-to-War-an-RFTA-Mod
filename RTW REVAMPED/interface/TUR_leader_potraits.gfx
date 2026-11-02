@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name= "GFX_potrait_Abdul_Hamid_II"
+		texturefile = "GFX/leaders/TUR/Abdul Hamid II.tga"
+	}
+}

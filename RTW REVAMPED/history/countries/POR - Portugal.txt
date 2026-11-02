@@ -1,0 +1,24 @@
+capital = 112
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.75
+set_war_support = 0.5
+recruit_character= POR_Manuel_II
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = paternal_autocracy
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 50
+    social_democratic = 0
+    liberalism = 10
+    conservatism = 10
+    authoritarian_democratic = 25
+    nationalism = 0
+    paternal_autocracy = 5
+    proto_fascist = 0
+}

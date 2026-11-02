@@ -1,0 +1,41 @@
+state = {
+    id = 705
+    name = STATE_705
+    manpower = 24725
+    state_category = tiny_island
+    history = {
+        owner = POR
+        buildings = {
+            infrastructure = 1
+            13015 = {
+                naval_base = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = SPR
+                    set_state_controller_to = SPR
+                }
+            }
+        }
+    }
+    provinces = { 13015 }
+    local_supplies = 0.0
+}

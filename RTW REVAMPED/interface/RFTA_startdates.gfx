@@ -1,0 +1,7 @@
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_start_date_1915"
+		texturefile = "GFX/interface/select_date_1915.tga"
+	}
+}

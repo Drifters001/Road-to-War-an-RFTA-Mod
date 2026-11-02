@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_social_democratic_group"
+		textureFile = "GFX/interface/ideologies/SocialDemocracy_group_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		textureFile = "GFX/interface/ideologies/Liberalism.tga"
+	}
+
+}

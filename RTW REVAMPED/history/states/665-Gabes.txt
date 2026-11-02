@@ -1,0 +1,41 @@
+state = {
+    id = 665
+    name = STATE_665
+    history = {
+        owner = FRA
+        add_core_of = TUN
+        victory_points = { 7005 1 }
+        buildings = {
+            infrastructure = 2
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = KON
+                    set_state_controller_to = KON
+                }
+            }
+        }
+    }
+    state_category = pastoral
+    provinces = { 1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179 }
+    manpower = 427824
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.0
+}

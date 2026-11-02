@@ -1,0 +1,29 @@
+capital = 845
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = RMY_Gustave_Ador
+FRA = {
+    set_autonomy = {
+        target = RMY
+        autonomy_state = autonomy_integrated_puppet
+    }
+}
+# Politics selected in the builder
+set_politics = {
+    ruling_party = liberalism
+    last_election = "1932.5.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    socialism = 10
+    social_democratic = 0
+    liberalism = 90
+    conservatism = 0
+    authoritarian_democratic = 0
+    nationalism = 0
+    paternal_autocracy = 0
+    proto_fascist = 0
+}

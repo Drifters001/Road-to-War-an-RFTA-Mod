@@ -1,0 +1,24 @@
+capital = 41
+set_research_slots = 4
+set_convoys = 250
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = SPR_Wilhelm_I_of_Spain
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = paternal_autocracy
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 10
+    social_democratic = 10
+    liberalism = 10
+    conservatism = 0
+    authoritarian_democratic = 0
+    nationalism = 0
+    paternal_autocracy = 50
+    proto_fascist = 20
+}

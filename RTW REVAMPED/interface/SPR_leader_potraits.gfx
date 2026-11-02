@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name= "GFX_potrait_Wilhelm_I_of_Spain"
+		texturefile = "GFX/leaders/SPR/Wilhelm I of Spain.tga"
+	}
+}

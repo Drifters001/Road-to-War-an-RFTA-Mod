@@ -1,0 +1,40 @@
+state = {
+    id = 557
+    name = STATE_557
+    manpower = 225000
+    state_category = pastoral
+    history = {
+        owner = FRA
+        add_core_of = MRT
+        victory_points = { 5034 1 }
+        buildings = {
+            infrastructure = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = CAN
+                    set_state_controller_to = CAN
+                }
+            }
+        }
+    }
+    provinces = { 5034 5077 7992 8058 10814 }
+    local_supplies = 0.0
+}

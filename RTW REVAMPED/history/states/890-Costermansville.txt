@@ -1,0 +1,66 @@
+state = {
+    id = 890
+    name = STATE_890
+    manpower = 710035
+    state_category = pastoral
+    resources = {
+        rubber = 3.000
+    }
+    history = {
+        owner = BEL
+        add_core_of = COG
+        IF = {
+            limit = {
+                has_dlc = Gotterdammerung
+            }
+            transfer_state_to = COG
+            add_dynamic_modifier = {
+                modifier = COG_state_loyal_to_free_congo_modifier
+            }
+        }
+        victory_points = { 4941 1 }
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 1950 3 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    if = {
+                        limit = {
+                            AND = {
+                                NOT = {
+                                    always = no
+                                }
+                                always = yes
+                            }
+                        }
+                        set_victory_points = {
+                            province = 1950
+                            value = 3
+                        }
+                    }
+                }
+            }
+        }
+    }
+    provinces = { 1181 4201 4941 7161 10766 13176 1950 12847 }
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+}

@@ -1,0 +1,31 @@
+state = {
+    id = 1068
+    name = STATE_1068
+    manpower = 284000
+    state_category = pastoral
+    history = {
+        owner = SIA
+        add_core_of = LAO
+        add_core_of = CPS
+        victory_points = { 1592 1 }
+        victory_points = { 1563 2 }
+        buildings = {
+            infrastructure = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = SIA
+            }
+        }
+    }
+    provinces = { 1374 1592 1563 1577 4554 7426 10453 12210 }
+    local_supplies = 0.0
+}

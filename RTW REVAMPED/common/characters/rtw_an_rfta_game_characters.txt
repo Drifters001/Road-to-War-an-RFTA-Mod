@@ -1,0 +1,212 @@
+characters = {
+    CIS_Nicola_Bombacci = {
+        name = CIS_Nicola_Bombacci
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Nicola_Bombacci
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = futurism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    KON_Alfonso_the_Third_of_Naples = {
+        name = KON_Alfonso_the_Third_of_Naples
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Alfonso_the_Third_of_Naples
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    RSP_Giovanni_Amendola = {
+        name = RSP_Giovanni_Amendola
+        portraits = {
+            civilian = {
+                large = GFX_potrait_Giovanni_Amendola
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = classical_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    BEL_Ferdinand_of_Flanders_Wallonia = {
+        name = BEL_Ferdinand_of_Flanders_Wallonia
+        portraits = {
+            civilian = {
+                large = GFX_potrait_Ferdinand_of_Flanders_Wallonia
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    SPR_Wilhelm_I_of_Spain = {
+        name = SPR_Wilhelm_I_of_Spain
+        portraits = {
+            civilian = {
+                large = GFX_potrait_Wilhelm_I_of_Spain
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    AUS_Heinrich_Albert_Schnee = {
+        name = AUS_Heinrich_Albert_Schnee
+        portraits = {
+            civilian = {
+                large = GFX_potrait_Heinrich_Albert_Schnee
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = totalitarian_democracy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    GER_Ludendorf = {
+        name = GER_Ludendorf
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Ludendorf
+                small = GFX_idea_rtw_an_rfta_game_GER_Ludendorf
+            }
+        }
+        country_leader = {
+            ideology = constitutional_monarchism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    CZE_Wilhelm_Solf = {
+        name = CZE_Wilhelm_Solf
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Wilhelm_Solf
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = totalitarian_democracy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    POL_Bogdan_von_Hutten_Czapski= {
+        name = POL_Bogdan_von_Hutten_Czapski
+        portraits = {
+            civilian = {
+                large = GFX_potrait_Bogdan_von_Hutten_Czapski
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = totalitarian_democracy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+        TUR_Abdul_Hamid_II= {
+        name = TUR_Abdul_Hamid_II
+        portraits = {
+            civilian = {
+                large = GFX_potrait_Abdul_Hamid_II
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+FGS_Arthur_von_Gwinner= {
+        name = FGS_Arthur_von_Gwinner
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Arthur_von_Gwinner
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = market_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+IRE_James_Connolly= {
+        name = IRE_James_Connolly
+        portraits = {
+            civilian = {
+                large = GFX_portrait_James_Connolly
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = classical_hardism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+FRA_Rene_Viviani= {
+        name = FRA_Rene_Viviani  
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Rene_Viviani
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = democratic_socialism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    RMY_Gustave_Ador = {
+        name = RMY_Gustave_Ador 
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Gustave_Ador
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = classical_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    POR_Manuel_II = {
+        name = POR_Manuel_II
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Manuel_II
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+}

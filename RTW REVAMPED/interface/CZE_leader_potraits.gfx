@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Wilhelm_Solf"
+		texturefile = "GFX/leaders/CZE/Wilhelm_Solf.tga"
+	}
+}

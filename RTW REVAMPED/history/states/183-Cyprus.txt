@@ -1,0 +1,48 @@
+state = {
+    id = 183
+    name = STATE_183
+    manpower = 347959
+    state_category = rural
+    resources = {
+        chromium = 3
+    }
+    history = {
+        owner = ENG
+        add_core_of = CYP
+        victory_points = { 11984 5 }
+        victory_points = { 7193 3 }
+        buildings = {
+            infrastructure = 2
+            air_base = 1
+            7193 = {
+                naval_base = 2
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = TUR
+                    set_state_controller_to = TUR
+                }
+            }
+        }
+    }
+    provinces = { 7193 11984 }
+    local_supplies = 0.0
+}

@@ -1,0 +1,41 @@
+state = {
+    id = 782
+    name = STATE_782
+    manpower = 79243
+    state_category = wasteland
+    impassable = yes
+    force_link_ownership_to = 898
+    history = {
+        owner = FRA
+        add_core_of = MLI
+        buildings = {
+            infrastructure = 0
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = CAN
+                    set_state_controller_to = CAN
+                }
+            }
+        }
+    }
+    provinces = { 1115 2068 10725 10868 }
+    local_supplies = 0.0
+}

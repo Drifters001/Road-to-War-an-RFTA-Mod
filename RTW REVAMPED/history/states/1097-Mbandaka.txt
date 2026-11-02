@@ -1,0 +1,12 @@
+state = {
+    id = 1097
+    name = STATE_1097
+    manpower = 100000
+    state_category = rural
+    history = {
+        victory_points = { 988 2 }
+        owner = COG
+
+    }
+    provinces = { 988 7219 8048 10071 10951 }
+}

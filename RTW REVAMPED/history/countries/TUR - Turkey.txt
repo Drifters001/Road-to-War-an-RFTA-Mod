@@ -1,0 +1,25 @@
+capital = 49
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.3
+recruit_character = TUR_Abdul_Hamid_II
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = Paternal_Autocracy
+    last_election = "1935.2.8"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+
+    socialism = 15
+    social_democratic = 0
+    liberalism = 25
+    conservatism = 0
+    authoritarian_democratic = 45
+    nationalism = 0
+    paternal_autocracy = 15
+    proto_fascist = 0
+}

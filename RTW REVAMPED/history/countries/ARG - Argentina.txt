@@ -1,0 +1,23 @@
+capital = 278
+set_research_slots = 3
+set_convoys = 120
+set_stability = 0.5
+set_war_support = 0.5
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = authoritarian_democratic
+    last_election = "1931.11.8"
+    election_frequency = 72
+    elections_allowed = yes
+}
+set_popularities = {
+    socialism = 0
+    social_democratic = 10
+    liberalism = 10
+    conservatism = 10
+    authoritarian_democratic = 60
+    nationalism = 10
+    paternal_autocracy = 0
+    proto_fascist = 0
+}

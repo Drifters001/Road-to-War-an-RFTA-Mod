@@ -1,0 +1,44 @@
+state = {
+    id = 434
+    name = STATE_434
+    manpower = 200000
+    state_category = wasteland
+    resources = {
+        tungsten = 49
+    }
+    history = {
+        owner = RAJ
+        add_core_of = RAJ
+        add_core_of = TIB
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 1116 1 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = BRM
+                    set_state_controller_to = BRM
+                }
+            }
+        }
+    }
+    provinces = { 1116 1996 10810 12730 }
+    local_supplies = 0.0
+}

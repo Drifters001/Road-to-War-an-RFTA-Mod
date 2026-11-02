@@ -1,0 +1,44 @@
+state = {
+    id = 269
+    name = STATE_269
+    manpower = 344700
+    state_category = enclave
+    history = {
+        victory_points = { 10833 1 }
+        victory_points = { 5068 1 }
+        owner = ENG
+        add_core_of = SOM
+        buildings = {
+            infrastructure = 2
+            10833 = {
+                naval_base = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = ETH
+                    set_state_controller_to = ETH
+                }
+            }
+        }
+    }
+    provinces = { 1905 5068 8094 10777 10833 10921 12759 12814 }
+    local_supplies = 0.0
+}

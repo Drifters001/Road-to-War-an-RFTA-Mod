@@ -1,0 +1,61 @@
+state = {
+    id = 981
+    name = STATE_981
+    state_category = rural
+    manpower = 690043
+    resources = {
+        chromium = 16
+        tungsten = 4
+    }
+    history = {
+        owner = ENG
+        add_core_of = ZAM
+        add_core_of = BAR
+        victory_points = { 697 1 }
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 5199 2 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    if = {
+                        limit = {
+                            AND = {
+                                NOT = {
+                                    always = no
+                                }
+                                always = yes
+                            }
+                        }
+                        set_victory_points = {
+                            province = 5199
+                            value = 2
+                        }
+                    }
+                    transfer_state_to = SPR
+                    set_state_controller_to = SPR
+                }
+            }
+        }
+    }
+    provinces = { 697 7872 10538 12677 5199 12504 }
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.0
+}

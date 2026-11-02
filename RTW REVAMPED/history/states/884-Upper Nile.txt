@@ -1,0 +1,41 @@
+state = {
+    id = 884
+    name = STATE_884
+    manpower = 1040121
+    state_category = pastoral
+    history = {
+        owner = ENG
+        add_core_of = SUD
+        victory_points = { 2096 1 }
+        buildings = {
+            infrastructure = 2
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = GER
+                    set_state_controller_to = GER
+                }
+            }
+        }
+    }
+    provinces = { 2096 10859 10877 12800 }
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+}

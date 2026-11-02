@@ -1,0 +1,35 @@
+state = {
+    id = 1059
+    name = STATE_1059
+    manpower = 89800
+    resources = {
+        oil = 1
+        coal = 2
+    }
+    state_category = rural
+    history = {
+        owner = GER
+        add_core_of = MAL
+        add_core_of = SAR
+        add_core_of = BRN
+        victory_points = { 13378 1 }
+        buildings = {
+            infrastructure = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = GER
+            }
+        }
+    }
+    provinces = { 10269 13377 13378 }
+    local_supplies = 0.0
+}

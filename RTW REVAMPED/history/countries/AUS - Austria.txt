@@ -1,0 +1,29 @@
+capital = 4
+set_research_slots = 3
+set_convoys = 25
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = AUS_Heinrich_Albert_Schnee
+GER = {
+    set_autonomy = {
+        target = AUS
+        autonomy_state = autonomy_integrated_puppet
+    }
+}
+
+set_politics = {
+    ruling_party = authoritarian_democratic
+    last_election = "1915.01.01"
+    election_frequency = 4
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 2
+    social_democratic = 0
+    liberalism = 3
+    conservatism = 2
+    authoritarian_democratic = 69
+    nationalism = 3
+    paternal_autocracy = 20
+    proto_fascist = 1
+}

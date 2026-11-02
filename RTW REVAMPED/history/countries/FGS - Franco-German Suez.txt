@@ -1,0 +1,29 @@
+capital = 446
+set_research_slots = 2
+set_convoys = 25
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = FGS_Arthur_von_Gwinner
+GER = {
+    set_autonomy = {
+        target = FGS
+        autonomy_state = autonomy_integrated_puppet
+    }
+}
+
+set_politics = {
+    ruling_party = Liberalism
+    last_election = "1915.01.01"
+    election_frequency = 4
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 0
+    social_democratic = 0
+    liberalism = 100
+    conservatism = 0
+    authoritarian_democratic = 0
+    nationalism = 0
+    paternal_autocracy = 0
+    proto_fascist = 0
+}

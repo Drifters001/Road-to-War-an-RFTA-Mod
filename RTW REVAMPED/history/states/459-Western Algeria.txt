@@ -1,0 +1,52 @@
+state = {
+    id = 459
+    name = STATE_459
+    manpower = 3089944
+    state_category = town
+    resources = {
+        steel = 65
+        coal = 2
+    }
+    history = {
+        owner = FRA
+        add_core_of = ALG
+        victory_points = { 1145 5 }
+        victory_points = { 7132 5 }
+        buildings = {
+            infrastructure = 2
+            air_base = 5
+            1145 = {
+                naval_base = 2
+            }
+            7132 = {
+                naval_base = 6
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = GER
+                    set_state_controller_to = GER
+                }
+            }
+        }
+    }
+    provinces = { 1013 1145 4116 4131 4146 7132 9964 11923 11939 12760 }
+    local_supplies = 0.0
+}

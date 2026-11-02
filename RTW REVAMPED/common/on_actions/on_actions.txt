@@ -1,0 +1,13 @@
+
+on_actions = {
+    on_daily = {
+        effect = {
+            every_country = {
+                country_event = {
+                    id = cosmetic_tag_events.1
+                }
+            }
+        }
+    }
+}
+

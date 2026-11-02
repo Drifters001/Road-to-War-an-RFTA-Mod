@@ -1,0 +1,13 @@
+state = {
+    id = 1103
+    name = STATE_1103
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = MAN
+        add_core_of = MAN
+        victory_points = { 12432 1 }
+
+    }
+    provinces = { 1027 10480 10507 12432 }
+}

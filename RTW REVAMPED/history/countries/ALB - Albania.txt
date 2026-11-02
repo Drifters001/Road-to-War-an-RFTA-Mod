@@ -1,0 +1,23 @@
+capital = 934
+set_research_slots = 3
+set_convoys = 5
+set_stability = 0.5
+set_war_support = 0.5
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = paternal_Autocracy
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 40
+    social_democratic = 0
+    liberalism = 0
+    conservatism = 0
+    authoritarian_democratic = 0
+    nationalism = 0
+    paternal_autocracy = 35
+    proto_fascist = 25
+}

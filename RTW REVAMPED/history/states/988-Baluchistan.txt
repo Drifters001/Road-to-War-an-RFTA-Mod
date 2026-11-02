@@ -1,0 +1,43 @@
+state = {
+    id = 988
+    name = STATE_988
+    provinces = { 5075 5105 8013 8044 }
+    state_category = rural
+    manpower = 512000
+    history = {
+        owner = RAJ
+        add_core_of = RAJ
+        add_core_of = PAK
+        add_core_of = BLC
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 5105 3 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = AFG
+                    set_state_controller_to = AFG
+                }
+            }
+        }
+    }
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+}

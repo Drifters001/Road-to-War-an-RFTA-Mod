@@ -1,0 +1,11 @@
+state = {
+    id = 1102
+    name = STATE_1102
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = SIA
+        add_core_of = SIA
+    }
+    provinces = { 1296 1315 1385 4275 4408 7295 10217 12125 12292 }
+}

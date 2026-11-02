@@ -1,0 +1,50 @@
+state = {
+    id = 922
+    name = STATE_922
+    manpower = 396425
+    state_category = town
+    resources = {
+        aluminium = 5
+    }
+    history = {
+        victory_points = { 9296 3 }
+        owner = SWE
+        add_core_of = SWE
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            arms_factory = 1
+            dockyard = 1
+            9296 = {
+                naval_base = 3
+                coastal_bunker = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = SWE
+                    set_state_controller_to = SWE
+                }
+            }
+        }
+    }
+    provinces = { 3049 3129 6072 9096 9196 9296 11176 11367 11101 }
+    local_supplies = 0.000
+}

@@ -1,0 +1,32 @@
+state = {
+    id = 611
+    name = STATE_611
+    manpower = 1470000
+    state_category = pastoral
+    history = {
+        owner = MAN
+        add_core_of = MEN
+        add_core_of = CHI
+        add_core_of = PRC
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+        }
+        victory_points = { 10397 2 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = MAN
+            }
+        }
+    }
+    provinces = { 828 952 1489 4495 4612 7545 7674 10397 11752 13379 }
+    local_supplies = 0.0
+}

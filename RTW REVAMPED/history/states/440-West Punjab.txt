@@ -1,0 +1,44 @@
+state = {
+    id = 440
+    name = STATE_440
+    provinces = { 4979 8022 8106 9084 10173 10887 }
+    history = {
+        owner = RAJ
+        add_core_of = PAK
+        add_core_of = KHL
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }
+        victory_points = { 10173 3 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = KHL
+                    set_state_controller_to = KHL
+                }
+            }
+        }
+    }
+    state_category = town
+    manpower = 16024000
+    buildings_max_level_factor = 1.000
+    state_category = town
+    local_supplies = 0.500
+}

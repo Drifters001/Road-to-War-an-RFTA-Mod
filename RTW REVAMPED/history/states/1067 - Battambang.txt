@@ -1,0 +1,31 @@
+state = {
+    id = 1067
+    name = STATE_1067
+    manpower = 1122000
+    history = {
+        owner = SIA
+        add_core_of = CAM
+        victory_points = { 4251 1 }
+        victory_points = { 10467 1 }
+        buildings = {
+            infrastructure = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = SIA
+            }
+        }
+    }
+    provinces = { 4251 10134 10177 10467 12460 12447 }
+    buildings_max_level_factor = 1.000
+    state_category = town
+    local_supplies = 0.0
+}

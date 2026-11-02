@@ -1,0 +1,43 @@
+state = {
+    id = 787
+    name = STATE_787
+    manpower = 1672000
+    state_category = rural
+    history = {
+        victory_points = { 1910 1 }
+        owner = RAJ
+        buildings = {
+            infrastructure = 1
+        }
+        add_core_of = PAK
+        add_claim_by = RAJ
+        add_core_of = KAS
+        add_core_of = KHL
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = KAS
+                    set_state_controller_to = KAS
+                }
+            }
+        }
+    }
+    provinces = { 1910 2041 }
+    local_supplies = 0.0
+}

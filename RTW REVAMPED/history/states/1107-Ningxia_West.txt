@@ -1,0 +1,22 @@
+state = {
+    id = 1107
+    name = STATE_1107
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = YIN
+        victory_points = { 8127 3 }
+                
+                set_victory_points = {
+                    province = 8127
+                    value = 3
+                }
+                set_victory_points = {
+                    province = 5031
+                    value = 1
+                }
+        
+    add_core_of = YIN
+    }
+    provinces = { 3742 7511 8127 8081 }
+}

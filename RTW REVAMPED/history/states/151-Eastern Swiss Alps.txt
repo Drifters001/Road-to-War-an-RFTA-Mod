@@ -1,0 +1,44 @@
+state = {
+    id = 151
+    name = STATE_151
+    manpower = 598920
+    state_category = rural
+    resources = {
+        aluminium = 15
+    }
+    history = {
+        owner = SWI
+        victory_points = { 658 1 }
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }
+        add_core_of = SWI
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = AUS
+                    set_state_controller_to = AUS
+                }
+            }
+        }
+    }
+    provinces = { 658 661 3660 3662 11601 }
+    local_supplies = 0.0
+}

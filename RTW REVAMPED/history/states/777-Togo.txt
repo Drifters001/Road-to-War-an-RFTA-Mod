@@ -1,0 +1,44 @@
+state = {
+    id = 777
+    name = STATE_777
+    history = {
+        owner = FRA
+        add_core_of = TOG
+        victory_points = { 1951 1 }
+        buildings = {
+            infrastructure = 2
+            1951 = {
+                naval_base = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = LIB
+                    set_state_controller_to = LIB
+                }
+            }
+        }
+    }
+    provinces = { 1951 12843 13212 }
+    manpower = 1101346
+    buildings_max_level_factor = 1.000
+    state_category = pastoral
+    local_supplies = 0.0
+}

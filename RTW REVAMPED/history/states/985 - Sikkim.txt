@@ -1,0 +1,43 @@
+state = {
+    id = 985
+    name = STATE_985
+    manpower = 109808
+    state_category = rural
+    resources = {
+    }
+    history = {
+        owner = RAJ
+        add_core_of = RAJ
+        add_core_of = SKK
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 4435 1 }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = BAN
+                    set_state_controller_to = BAN
+                }
+            }
+        }
+    }
+    provinces = { 4435 }
+    local_supplies = 0.0
+}

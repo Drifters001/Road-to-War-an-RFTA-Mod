@@ -1,0 +1,42 @@
+state = {
+    id = 773
+    name = STATE_773
+    manpower = 2945782
+    state_category = rural
+    history = {
+        owner = FRA
+        add_core_of = CMR
+        victory_points = { 2080 1 }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            air_base = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = SPR
+                    set_state_controller_to = SPR
+                }
+            }
+        }
+    }
+    provinces = { 2080 5036 5054 6039 9137 }
+    local_supplies = 0.0
+}

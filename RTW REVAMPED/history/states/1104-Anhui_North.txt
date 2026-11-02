@@ -1,0 +1,12 @@
+state = {
+    id = 1104
+    name = STATE_1104
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = QIN
+        add_core_of = QIN
+        victory_points = { 7222 1 }
+    }
+    provinces = { 4079 4158 7094 7222 9937 10008 10040 10064 10079 11916 12036 }
+}

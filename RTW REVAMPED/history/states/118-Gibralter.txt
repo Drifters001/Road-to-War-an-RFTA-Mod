@@ -1,0 +1,45 @@
+state = {
+    id = 118
+    name = STATE_118
+    manpower = 21372
+    state_category = enclave
+    history = {
+        owner = ENG
+        victory_points = { 4135 10 }
+        buildings = {
+            infrastructure = 3
+            air_base = 2
+            4135 = {
+                naval_base = 5
+                coastal_bunker = 2
+            }
+        }
+        add_claim_by = SPR
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = SPR
+                    set_state_controller_to = SPR
+                }
+            }
+        }
+    }
+    provinces = { 4135 }
+    local_supplies = 0.0
+}

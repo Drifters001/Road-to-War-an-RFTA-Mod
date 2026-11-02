@@ -1,0 +1,19 @@
+state = {
+    id = 1083
+    name = STATE_1083
+    manpower = 100000
+    state_category = city
+    history = {
+        victory_points = { 3456 1 }
+        owner= FRA
+         buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+            3456 = {
+                naval_base = 4
+            }
+        }
+}
+    provinces = { 3456 }
+
+}

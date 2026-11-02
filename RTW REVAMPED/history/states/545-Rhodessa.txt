@@ -1,0 +1,41 @@
+state = {
+    id = 545
+    state_category = pastoral
+    name = STATE_545
+    history = {
+        owner = ENG
+        buildings = {
+            infrastructure = 2
+        }
+        victory_points = { 10929 1 }
+        add_core_of = ZIM
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = POR
+                    set_state_controller_to = POR
+                }
+            }
+        }
+    }
+    provinces = { 1874 2151 2216 4851 7842 10929 }
+    manpower = 1171336
+    buildings_max_level_factor = 1.000
+    local_supplies = 3.0
+}

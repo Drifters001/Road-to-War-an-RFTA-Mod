@@ -1,0 +1,33 @@
+state = {
+    id = 1063
+    name = STATE_1063
+    manpower = 623100
+    state_category = town
+    resources = {
+        tungsten = 30
+        rubber = 85
+    }
+    history = {
+        owner = GER
+        add_core_of = MAL
+        victory_points = { 7399 1 }
+        buildings = {
+            infrastructure = 1
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = GER
+            }
+        }
+    }
+    provinces = { 1392 4367 7399 12255 12271 }
+    local_supplies = 0.0
+}

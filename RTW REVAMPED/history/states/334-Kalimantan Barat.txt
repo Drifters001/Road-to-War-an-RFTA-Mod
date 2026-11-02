@@ -1,0 +1,41 @@
+state = {
+    id = 334
+    name = STATE_334
+    manpower = 855346
+    resources = {
+        rubber = 30
+        coal = 4
+        oil = 23
+    }
+    state_category = rural
+    history = {
+        owner = GER
+        add_core_of = POK
+        victory_points = { 4279 1 }
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+            4279 = {
+                naval_base = 1
+            }
+            13298 = {
+                naval_base = 1
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                set_state_controller_to = GER
+            }
+        }
+    }
+    provinces = { 1304 1316 4279 4409 7227 10282 10310 12129 12955 13298 }
+    local_supplies = 0.0
+}

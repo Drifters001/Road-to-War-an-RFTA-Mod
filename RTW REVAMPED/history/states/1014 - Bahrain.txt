@@ -1,0 +1,43 @@
+state = {
+    id = 1014
+    name = STATE_1014
+    manpower = 89970
+    state_category = pastoral
+    history = {
+        owner = ENG
+        add_core_of = BHR
+        victory_points = { 13313 2 }
+        buildings = {
+            infrastructure = 1
+            13313 = {
+                naval_base = 2
+            }
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = OMA
+                    set_state_controller_to = OMA
+                }
+            }
+        }
+    }
+    provinces = { 13313 }
+    local_supplies = 0.0
+}

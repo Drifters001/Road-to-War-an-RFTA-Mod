@@ -1,0 +1,30 @@
+capital = 977
+set_research_slots = 3
+set_convoys = 25
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = BEL_Ferdinand_of_Flanders_Wallonia
+SPR = {
+    set_autonomy = {
+        target = BEL
+        autonomy_state = autonomy_integrated_puppet
+    }
+}
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = paternal_autocracy
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 15
+    social_democratic = 10
+    liberalism = 0
+    conservatism = 0
+    authoritarian_democratic = 0
+    nationalism = 20
+    paternal_autocracy = 25
+    proto_fascist = 30
+}

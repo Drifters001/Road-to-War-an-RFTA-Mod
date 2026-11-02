@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Nicola_Bombacci"
+		texturefile = "GFX/leaders/CIS/Nicola_Bombacci.tga/"
+	}
+}

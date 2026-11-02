@@ -1,0 +1,10 @@
+state = {
+    id = 1108
+    name = STATE_1108
+    manpower = 100000
+    state_category = rural
+    history = {
+        owner = ENG
+    }
+    provinces = { 1428 12126 13395 13396 13397 }
+}

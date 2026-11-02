@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_James_Connolly"
+		texturefile = "GFX/leaders/IRE/James Connolly.tga"
+	}
+}

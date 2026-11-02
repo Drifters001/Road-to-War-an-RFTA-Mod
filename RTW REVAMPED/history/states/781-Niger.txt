@@ -1,0 +1,41 @@
+state = {
+    id = 781
+    name = STATE_781
+    manpower = 543817
+    state_category = rural
+    history = {
+        owner = FRA
+        add_core_of = NGR
+        add_core_of = SOK
+        victory_points = { 2056 1 }
+        buildings = {
+            infrastructure = 2
+        }
+        1915.1.1.12 = {
+            if = {
+                limit = {
+                    AND = {
+                        NOT = {
+                            has_start_date < 1915.1.1
+                        }
+                        has_start_date < 1915.1.2
+                    }
+                }
+                if = {
+                    limit = {
+                        AND = {
+                            NOT = {
+                                always = no
+                            }
+                            always = yes
+                        }
+                    }
+                    transfer_state_to = CAN
+                    set_state_controller_to = CAN
+                }
+            }
+        }
+    }
+    provinces = { 1975 2056 12707 }
+    local_supplies = 1.0
+}

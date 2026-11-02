@@ -1,0 +1,24 @@
+capital = 113
+set_research_slots = 3
+set_convoys = 10
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character=IRE_James_Connolly
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = socialism
+    last_election = "1933.1.24"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    socialism = 38
+    social_democratic = 0
+    liberalism = 10
+    conservatism = 5
+    authoritarian_democratic = 0
+    nationalism = 34
+    paternal_autocracy = 0
+    proto_fascist = 13
+}

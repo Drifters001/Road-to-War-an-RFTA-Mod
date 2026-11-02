@@ -1,0 +1,23 @@
+capital = 16
+set_research_slots = 3
+set_convoys = 300
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = FRA_Rene_Viviani
+# Politics selected in the builder
+set_politics = {
+    ruling_party = social_democratic
+    last_election = "1932.5.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+set_popularities = {
+    socialism = 33
+    social_democratic = 33
+    liberalism = 0
+    conservatism = 0
+    authoritarian_democratic = 0
+    nationalism = 25
+    paternal_autocracy = 9
+    proto_fascist = 0
+}
