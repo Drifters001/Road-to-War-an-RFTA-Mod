@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_portrait_Bonar_Law"
-		texturefile = "GFX/leaders/ENG/Bonar Law.tga"
-	}
-}

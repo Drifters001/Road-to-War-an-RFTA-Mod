@@ -3,7 +3,6 @@ set_research_slots = 4
 set_convoys = 1000
 set_stability = 0.6
 set_war_support = 0.1
-recruit_character = ENG_Bonar_Law
 
 # Politics selected in the builder
 set_politics = {

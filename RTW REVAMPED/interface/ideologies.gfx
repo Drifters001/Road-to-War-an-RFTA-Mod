@@ -7,24 +7,5 @@ spriteTypes = {
 		name = "GFX_ideology_liberalism_group"
 		textureFile = "GFX/interface/ideologies/Liberalism.tga"
 	}
-	spriteType = {
-		name = "GFX_ideology_conservatism_group"
-		textureFile = "GFX/interface/ideologies/Conservative.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_authoritarian_democratic_group"
-		textureFile = "GFX/interface/ideologies/AuthoritarianDemocracy.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_nationalism_group"
-		textureFile = "GFX/interface/ideologies/Nationalism.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_paternal_autocracy_group"
-		textureFile = "GFX/interface/ideologies/Paternal_Autocracy.tga"
-	}
-	spriteType = {
-		name = "GFX_ideology_socialism_group"
-		textureFile = "GFX/interface/ideologies/Hardism.tga"
-	}
+
 }
