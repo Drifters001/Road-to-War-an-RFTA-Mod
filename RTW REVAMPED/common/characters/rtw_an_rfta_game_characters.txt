@@ -209,4 +209,32 @@ FRA_Rene_Viviani= {
             id = -1
         }
     }
+    ENG_Bonar_Law = {
+        name = ENG_Bonar_Law
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Bonar_Law
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = social_conservatism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    HUN_Miklos_Horthy= {
+        name = HUN_Miklos_Horthy
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Miklos_Horthy
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = National_Populist
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
 }

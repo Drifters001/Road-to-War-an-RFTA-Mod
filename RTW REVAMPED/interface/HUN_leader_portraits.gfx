@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Miklos_Horthy"
+		texturefile = "GFX/leaders/HUN/Miklos Horthy.tga"
+	}
+}
