@@ -1,0 +1,17 @@
+spriteTypes = {
+
+    ###############
+    ### GENERIC ###
+    ###############
+
+	SpriteType = {
+	name = "GFX_goal_assess_the_industry"
+	texturefile = "gfx/interface/goals/RTW_Assess_the_Industry.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_kickstart_civilian_industry"
+	texturefile = "gfx/interface/goals/RTW_Kickstart_the_Industry.png"			
+	}	
+
+}
