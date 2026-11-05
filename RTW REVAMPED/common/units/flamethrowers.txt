@@ -1,0 +1,40 @@
+sub_units = {
+
+    flamethrower = {
+		abbreviation = "FLT"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 20
+		ai_priority = 200
+		active = no
+        		
+		type = {
+			infantry
+		}
+
+        categories = {
+            gas
+            infantry
+        }
+		
+		group = combat_support
+
+		combat_width = 3
+
+		max_strength = 25
+		max_organisation = 30
+		default_morale = 0.3
+		manpower = 250
+
+		training_time = 90
+		suppression = 1.5
+		weight = 0.5
+		
+		supply_consumption = 0.06
+	
+		need = {
+			infantry_equipment = 100
+		}
+    }
+
+}

@@ -1,0 +1,24 @@
+sub_unit_categories = {
+
+	category_light_infantry
+	category_front_line
+	category_army
+	category_line_artillery
+	infantry
+	support
+	category_cavalry
+	category_artillery
+	anti_air
+	gas
+        category_support_artillery
+        category_divisional_support_battalions
+        category_anti_air
+	category_support_battalions
+	category_mobile_and_mobile_combat_sup
+	category_all_infantry
+	category_marines
+	category_special_forces_leg_infantry
+	category_mountaineers
+	category_rangers
+	
+}
