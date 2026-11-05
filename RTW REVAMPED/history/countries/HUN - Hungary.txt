@@ -3,21 +3,22 @@ set_research_slots = 3
 set_convoys = 0
 set_stability = 0.5
 set_war_support = 0.5
+recruit_character = HUN_Miklos_Horthy
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = nationalism
     last_election = "1935.3.31"
     election_frequency = 48
     elections_allowed = yes
 }
 set_popularities = {
-    socialism = 100
+    socialism = 0
     social_democratic = 0
     liberalism = 0
     conservatism = 0
     authoritarian_democratic = 0
-    nationalism = 0
+    nationalism = 100
     paternal_autocracy = 0
     proto_fascist = 0
 }
