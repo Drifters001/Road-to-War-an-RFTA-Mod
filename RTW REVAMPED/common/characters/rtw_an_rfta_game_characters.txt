@@ -237,4 +237,19 @@ FRA_Rene_Viviani= {
             id = -1
         }
     }
+    USA_Eugene_Foss= {
+        name = USA_Eugene_Foss
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Eugene_Foss
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology =  social_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+
+    }
 }

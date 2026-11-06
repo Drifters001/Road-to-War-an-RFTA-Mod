@@ -3,8 +3,8 @@ bookmarks = {
 		name = "RTW_NAME"
 		desc = "RTW_DESC"
 		date = 1915.1.1.12
-		picture = "GFX_select_date_1936"
-		default_country = "CIS"
+		picture = "GFX_start_date_1915"
+		default_country = "GER"
 		default = yes
 
 		filters = { new_content continent }
@@ -20,11 +20,22 @@ bookmarks = {
 		#                                     # any label used by a country that is missing from this list
 		# scrollable_country_list = yes       # defaults to no: scroll the minor list with its vertical scrollbar instead of the overflow dropdown
 
- CIS = {
-            history = road_to_war_CIS_history
-            ideology = proto_fascist
+ GER = {
+            history = road_to_war_GER_history
+            ideology = authoritarian_democratic
             version = base_game
         }
+
+ USA = {
+			history = road_to_war_USA_history
+			ideology = liberalism
+			version = base_game
+ }		
+ ENG = {
+			history = road_to_war_ENG_history
+			ideology = conservatism
+			version = base_game
+ }
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

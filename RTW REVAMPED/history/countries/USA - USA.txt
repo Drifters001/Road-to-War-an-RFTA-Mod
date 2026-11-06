@@ -3,21 +3,22 @@ set_research_slots = 4
 set_convoys = 700
 set_stability = 0.75
 set_war_support = 0
+recruit_character = USA_Eugene_Foss
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = Liberalism
     last_election = "1932.11.8"
     election_frequency = 48
     elections_allowed = yes
 }
 set_popularities = {
-    socialism = 100
-    social_democratic = 0
-    liberalism = 0
-    conservatism = 0
-    authoritarian_democratic = 0
-    nationalism = 0
-    paternal_autocracy = 0
-    proto_fascist = 0
+    socialism = 7
+    social_democratic = 18
+    liberalism = 19
+    conservatism = 17
+    authoritarian_democratic = 19
+    nationalism = 10
+    paternal_autocracy = 5
+    proto_fascist = 5
 }
