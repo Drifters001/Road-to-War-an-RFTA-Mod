@@ -160,6 +160,7 @@ ideologies = {
             }
             agrarianism = {
             }
+            national_authoritarianism = {}
         }
         color = { 183 183 183 }
         war_impact_on_world_tension = 0.85
@@ -269,7 +270,7 @@ ideologies = {
         types = {
             futurism = {
             }
-            classcial_fascism = {
+            green_dragons = {
             }
             neo_hardism = {
             }

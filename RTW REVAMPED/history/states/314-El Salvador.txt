@@ -7,7 +7,7 @@ state = {
     }
     state_category = town
     history = {
-        owner = MEX
+        owner = ZCA
         buildings = {
             infrastructure = 2
             arms_factory = 1
@@ -17,7 +17,6 @@ state = {
                 naval_base = 1
             }
         }
-        add_core_of = ELS
         victory_points = { 12823 3 }
     }
     provinces = { 12823 13093 }

@@ -62,8 +62,9 @@ replace_path="common/unit_medals"
 replace_path="common/focus_inlay_windows"
 replace_path="common/ai_faction_theaters"
 replace_path="common/intelligence_agencies"
+replace_path="localisation"
 tags={
 	"Alternative History"
 }
 name="RTW REVAMPED"
-supported_version="1.19.4.1"
+supported_version="1.19.4.2"

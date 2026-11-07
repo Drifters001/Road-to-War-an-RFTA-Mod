@@ -3,19 +3,20 @@ set_research_slots = 3
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.1
+recruit_character = CUB_Jose_Miguel_Gomez
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = Liberalism
     last_election = "1936.1.10"
     election_frequency = 48
     elections_allowed = yes
 }
 set_popularities = {
-    socialism = 100
+    socialism = 0
     social_democratic = 0
-    liberalism = 0
-    conservatism = 0
+    liberalism = 80
+    conservatism = 20
     authoritarian_democratic = 0
     nationalism = 0
     paternal_autocracy = 0

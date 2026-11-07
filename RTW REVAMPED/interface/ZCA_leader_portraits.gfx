@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name= "GFX_portrait_Eufemio_Zapata"
+		texturefile = "GFX/leaders/ZCA/Eufemio Zapata.tga"
+	}
+}

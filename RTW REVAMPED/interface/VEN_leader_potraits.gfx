@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name= "GFX_portrait_Rafael_Reyes"
+		texturefile = "GFX/leaders/VEN/Rafael Reyes.tga"
+	}
+}

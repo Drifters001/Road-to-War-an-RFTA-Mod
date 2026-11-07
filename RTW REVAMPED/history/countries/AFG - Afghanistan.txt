@@ -4,6 +4,7 @@ set_convoys = 0
 set_stability = 0.5
 set_war_support = 0.5
 
+
 # Politics selected in the builder
 set_politics = {
     ruling_party = paternal_autocracy

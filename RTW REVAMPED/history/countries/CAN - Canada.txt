@@ -2,22 +2,23 @@ capital = 276
 set_research_slots = 3
 set_convoys = 100
 set_stability = 0.75
-set_war_support = 0.1
+set_war_support = 0.15
+recruit_character = CAN_Wilfrid_laurier
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = liberalism
     last_election = "1935.10.14"
     election_frequency = 60
     elections_allowed = yes
 }
 set_popularities = {
-    socialism = 100
-    social_democratic = 0
-    liberalism = 0
-    conservatism = 0
-    authoritarian_democratic = 0
-    nationalism = 0
-    paternal_autocracy = 0
-    proto_fascist = 0
+    socialism = 5
+    social_democratic = 10
+    liberalism = 40
+    conservatism = 10
+    authoritarian_democratic = 10
+    nationalism = 10
+    paternal_autocracy = 10
+    proto_fascist = 5
 }

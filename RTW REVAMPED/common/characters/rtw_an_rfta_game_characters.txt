@@ -247,9 +247,78 @@ FRA_Rene_Viviani= {
         }
         country_leader = {
             ideology =  social_liberalism
-            expire = "1965.1.1"
-            id = -1
+
         }
 
     }
+    ZCA_Eufemio_Zapata = {
+        name = ZCA_Eufemio_Zapata
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Eufemio_Zapata
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = classical_hardism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    MEX_Emiliano_Zapata = {
+        name = MEX_Emiliano_Zapata
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Emiliano_Zapata
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = classical_hardism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    CAN_Wilfrid_laurier = {
+        name = CAN_Wilfrid_Laurier
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Wilfrid_Laurier
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = classical_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    VEN_Rafael_Reyes = {
+        name = VEN_Rafael_Reyes
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Rafael_Reyes
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = national_authoritarianism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    CUB_Jose_Miguel_Gomez = {
+        name = CUB_Jose_Miguel_Gomez
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Jose_Miguel_Gomez
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = market_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }    
 }
