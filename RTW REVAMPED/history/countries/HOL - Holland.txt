@@ -3,21 +3,22 @@ set_research_slots = 3
 set_convoys = 150
 set_stability = 0.75
 set_war_support = 0
+recruit_character = HOL_Theo_Heemskerk
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = conservatism
     last_election = "1933.4.26"
     election_frequency = 48
     elections_allowed = yes
 }
 set_popularities = {
-    socialism = 100
+    socialism = 15
     social_democratic = 0
-    liberalism = 0
-    conservatism = 0
+    liberalism = 10
+    conservatism = 65
     authoritarian_democratic = 0
     nationalism = 0
-    paternal_autocracy = 0
+    paternal_autocracy = 10
     proto_fascist = 0
 }

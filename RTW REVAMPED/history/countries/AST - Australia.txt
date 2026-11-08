@@ -3,10 +3,11 @@ set_research_slots = 3
 set_convoys = 100
 set_stability = 0.7
 set_war_support = 0
+recruit_character = AST_Robert_Garran
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = conservatism
     last_election = "1934.9.15"
     election_frequency = 36
     elections_allowed = yes

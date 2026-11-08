@@ -437,5 +437,70 @@ FRA_Rene_Viviani= {
             ideology = classical_hardism
         }
     }
-    
+    AST_Robert_Garran = {
+        name = AST_Robert_Garran
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Robert_Garran
+            }
+        }
+        country_leader = {
+            ideology = Liberal_Conservatism
+        }
+    }
+    HOL_Theo_Heemskerk = {
+        name = HOL_Theo_Heemskerk
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Theo_Heemskerk
+            }
+        }
+        country_leader = {
+            ideology = Liberal_Conservatism
+        }
+    }
+    SWI_Robert_Grimm = {
+        name = SWI_Robert_Grimm
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Robert_Grimm
+            }
+        }
+        country_leader = {
+            ideology = classical_hardism
+        }
+    }
+    DEN_Christian_X = {
+        name = DEN_Christian_X
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Christian_X
+            }
+        }
+        country_leader = {
+            ideology = Absolute_Monarchy
+        }
+    }
+    SWE_Nils_Eden = {
+        name = SWE_Nils_Eden
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Nils_Eden
+            }
+        }
+        country_leader = {
+            ideology = classical_liberalism
+        }
+    }
+    SOV_Nicholas_II = {
+        name = SOV_Nicholas_II
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Nicholas_II
+            }
+        }
+        country_leader = {
+            ideology = Absolute_Monarchy
+        }
+    }
 }

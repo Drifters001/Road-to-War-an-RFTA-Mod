@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Robert_Garran"
+		texturefile = "GFX/leaders/AST/Robert Garran.tga"
+	}
+} 
