@@ -7,7 +7,8 @@ state = {
         aluminium = 64
     }
     history = {
-        owner = CAN
+        owner = CNG
+        add_core_of = CNG
         victory_points = { 4982 1 }
         buildings = {
             infrastructure = 1

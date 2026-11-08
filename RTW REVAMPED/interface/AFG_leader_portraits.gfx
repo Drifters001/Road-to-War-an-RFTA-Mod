@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Habibullah"
+		texturefile = "GFX/leaders/AFG/Habibullah.tga"
+	}
+}

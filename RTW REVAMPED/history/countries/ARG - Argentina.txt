@@ -3,6 +3,7 @@ set_research_slots = 3
 set_convoys = 120
 set_stability = 0.5
 set_war_support = 0.5
+recruit_character = ARG_Jose_Figueroa_Alcorta
 
 # Politics selected in the builder
 set_politics = {

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Luis_Emilio_Recabarren"
+		texturefile = "GFX/leaders/CHL/Luis Emilio Recabarren.tga"
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Johnathan_Meyer"
+		texturefile = "GFX/leaders/CNG/Johhathan Meyer.tga"
+	}
+}

@@ -1,0 +1,30 @@
+capital = 687
+set_research_slots = 3
+set_convoys = 5
+set_stability = 0.35
+set_war_support = 0.4
+recruit_character = CNG_Johnathan_Meyer
+CAN = {
+    set_autonomy = {
+        target = CNG
+        autonomy_state = autonomy_puppet
+    }
+}
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = authoritarian_democratic
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 5
+    social_democratic = 5
+    liberalism = 5
+    conservatism = 5
+    authoritarian_democratic = 65
+    nationalism = 0
+    paternal_autocracy = 10
+    proto_fascist = 5
+}

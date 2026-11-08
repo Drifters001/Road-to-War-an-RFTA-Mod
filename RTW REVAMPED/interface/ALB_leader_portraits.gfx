@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Franz_Nopsca"
+		texturefile = "GFX/leaders/ALB/Franz Nopsca.tga"
+	}
+}

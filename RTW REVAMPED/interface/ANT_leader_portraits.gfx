@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Francis_Burton_Harrison"
+		texturefile = "GFX/leaders/ANT/Francis Burton Harrison.tga"
+	}
+}

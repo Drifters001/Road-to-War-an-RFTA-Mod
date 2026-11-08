@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Jose_Figueroa_Alcorta"
+		texturefile = "GFX/leaders/ARG/Jose Figueroa Alcorta.tga"
+	}
+} 

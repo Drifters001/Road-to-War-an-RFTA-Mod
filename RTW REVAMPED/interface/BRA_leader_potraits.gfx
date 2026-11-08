@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Isabelle_of_Brazil"
+		texturefile = "GFX/leaders/BRA/Isabelle of Brazil.tga"
+	}
+}

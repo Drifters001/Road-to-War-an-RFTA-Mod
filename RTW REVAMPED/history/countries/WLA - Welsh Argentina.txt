@@ -3,21 +3,22 @@ set_research_slots = 3
 set_convoys = 0
 set_stability = 0.5
 set_war_support = 0.5
+recruit_character = WLA_Eluned_Morgan
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = proto_fascist
     last_election = "1932.10.30"
     election_frequency = 72
     elections_allowed = no
 }
 set_popularities = {
-    socialism = 100
+    socialism = 20
     social_democratic = 0
     liberalism = 0
     conservatism = 0
     authoritarian_democratic = 0
-    nationalism = 0
+    nationalism = 10
     paternal_autocracy = 0
-    proto_fascist = 0
+    proto_fascist = 70
 }

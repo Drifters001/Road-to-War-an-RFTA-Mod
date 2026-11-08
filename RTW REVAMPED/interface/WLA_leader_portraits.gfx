@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name= "GFX_portrait_Eluned_Morgan"
+		texturefile = "GFX/leaders/WLA/Eluned Morgan.tga"
+	}
+}

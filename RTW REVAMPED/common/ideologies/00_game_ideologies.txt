@@ -274,6 +274,8 @@ ideologies = {
             }
             neo_hardism = {
             }
+            welsh_hardism = {
+            }
         }
         color = { 102 0 0 }
         war_impact_on_world_tension = 1

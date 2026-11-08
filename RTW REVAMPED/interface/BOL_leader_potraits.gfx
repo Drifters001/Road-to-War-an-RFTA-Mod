@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Jose_Pardo"
+		texturefile = "GFX/leaders/BOL/Jose Pardo.tga"
+	}
+}

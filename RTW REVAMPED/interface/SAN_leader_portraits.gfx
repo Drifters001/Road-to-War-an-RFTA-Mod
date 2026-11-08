@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_Arthur_Yager"
+		texturefile = "GFX/leaders/SAN/The Warden of Santo Domingo Arthur Yager.tga"
+	}
+}

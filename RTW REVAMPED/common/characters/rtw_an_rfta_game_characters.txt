@@ -320,5 +320,122 @@ FRA_Rene_Viviani= {
             expire = "1965.1.1"
             id = -1
         }
-    }    
+    }  
+     BOL_Jose_Pardo = {
+        name = BOL_Jose_Pardo
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Jose_Pardo
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = market_liberalism
+            expire = "1965.1.1"
+            id = -1
+        }
+    } 
+    AFG_Habibullah = {
+        name = AFG_Habibullah
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Habibullah
+                small = GFX_idea_unknown
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+    ALB_Franz_Nopsca = {
+        name = ALB_Franz_Nopsca
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Franz_Nopsca
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchy
+        }
+    }
+    ANT_Francis_Burton_Harrison = {
+        name = ANT_Francis_Burton_Harrison
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Francis_Burton_Harrison
+            }
+        }
+        country_leader = {
+            ideology = totalitarian_democracy
+        }
+    }
+    BRA_Isabelle_of_Brazil = {
+        name = BRA_Isabelle_of_Brazil
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Isabelle_of_Brazil
+            }
+        }
+        country_leader = {
+            ideology = Absolute_Monarchy
+        }
+    }
+    CNG_Johnathan_Meyer = {
+        name = CNG_Johnathan_Meyer
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Johnathan_Meyer
+            }
+        }
+        country_leader = {
+            ideology = Totalitarian_Democracy
+        }
+    }
+    SAN_Arthur_Yager = {
+        name = SAN_Arthur_Yager
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Arthur_Yager
+            }
+        }
+        country_leader = {
+            ideology = Totalitarian_Democracy
+        }
+    }
+    WLA_Eluned_Morgan ={
+        name = WLA_Eluned_Morgan
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Eluned_Morgan
+            }
+        }
+        country_leader = {
+            ideology = welsh_hardism
+        }
+    }
+    ARG_Jose_Figueroa_Alcorta ={
+        name = ARG_Jose_Figueroa_Alcorta
+        portraits = {
+            civilian = {
+            large = GFX_portrait_Jose_Figueroa_Alcorta
+            }
+        }    
+        country_leader = {
+            ideology = national_authoritarianism
+        }
+    }
+    CHL_Luis_Emilio_Recabarren = {
+        name = CHL_Luis_Emilio_Recabarren
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Luis_Emilio_Recabarren
+            }
+        }
+        country_leader = {
+            ideology = classical_hardism
+        }
+    }
+    
 }

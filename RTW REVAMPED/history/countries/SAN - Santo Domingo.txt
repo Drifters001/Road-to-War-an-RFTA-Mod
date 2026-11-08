@@ -1,0 +1,31 @@
+capital = 319
+set_research_slots = 3
+set_convoys = 5
+set_stability = 0.5
+set_war_support = 0.5
+recruit_character = SAN_Arthur_Yager
+
+USA = {
+    set_autonomy = {
+        target = SAN
+        autonomy_state = autonomy_integrated_puppet
+    }
+}
+
+# Politics selected in the builder
+set_politics = {
+    ruling_party = authoritarian_democratic
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    socialism = 0
+    social_democratic = 0
+    liberalism = 0
+    conservatism = 0
+    authoritarian_democratic = 100
+    nationalism = 0
+    paternal_autocracy = 0
+    proto_fascist = 0
+}
