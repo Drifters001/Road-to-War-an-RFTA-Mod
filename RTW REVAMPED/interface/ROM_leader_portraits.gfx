@@ -1,0 +1,7 @@
+spritetypes = {
+	spriteType = {
+		name = "GFX_portrait_Phillip_of_Romania"
+		textureFile = "GFX/leaders/ROM/Phillip of Romania.tga"
+	}
+
+}

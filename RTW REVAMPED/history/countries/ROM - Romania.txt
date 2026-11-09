@@ -3,7 +3,8 @@ set_research_slots = 3
 set_convoys = 10
 set_stability = 0.6
 set_war_support = 0.6
-
+recruit_character = ROM_Phillip_of_Romania
+set_cosmetic_tag = ROM_HUN
 
 HUN= {
     set_autonomy = {
@@ -14,18 +15,18 @@ HUN= {
 
 # Politics selected in the builder
 set_politics = {
-    ruling_party = socialism
+    ruling_party = paternal_autocracy
     last_election = "1933.12.20"
     election_frequency = 48
     elections_allowed = yes
 }
 set_popularities = {
-    socialism = 100
+    socialism = 0
     social_democratic = 0
     liberalism = 0
     conservatism = 0
     authoritarian_democratic = 0
-    nationalism = 0
-    paternal_autocracy = 0
+    nationalism = 40
+    paternal_autocracy = 60
     proto_fascist = 0
 }

@@ -63,6 +63,7 @@ replace_path="common/focus_inlay_windows"
 replace_path="common/ai_faction_theaters"
 replace_path="common/intelligence_agencies"
 replace_path="localisation"
+replace_path="common/continuous_focus"
 tags={
 	"Alternative History"
 }

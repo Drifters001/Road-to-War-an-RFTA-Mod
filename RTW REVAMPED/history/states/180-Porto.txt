@@ -7,7 +7,7 @@ state = {
     }
     state_category = large_town
     history = {
-        owner = POR
+        owner = POO
         victory_points = { 9817 10 }
         victory_points = { 11673 5 }
         buildings = {
@@ -19,30 +19,7 @@ state = {
             }
         }
         add_core_of = POR
-        1915.1.1.12 = {
-            if = {
-                limit = {
-                    AND = {
-                        NOT = {
-                            has_start_date < 1915.1.1
-                        }
-                        has_start_date < 1915.1.2
-                    }
-                }
-                if = {
-                    limit = {
-                        AND = {
-                            NOT = {
-                                always = no
-                            }
-                            always = yes
-                        }
-                    }
-                    transfer_state_to = SPR
-                    set_state_controller_to = SPR
-                }
-            }
-        }
+        add_core_of = POO
     }
     provinces = { 724 877 3892 6921 6941 9817 11673 }
     local_supplies = 0.0

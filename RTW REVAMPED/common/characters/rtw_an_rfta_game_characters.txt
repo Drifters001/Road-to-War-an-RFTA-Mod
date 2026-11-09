@@ -503,4 +503,27 @@ FRA_Rene_Viviani= {
             ideology = Absolute_Monarchy
         }
     }
+    ROM_Phillip_of_Romania = {
+        name = ROM_Phillip_of_Romania
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Phillip_of_Romania
+            }
+        }
+        country_leader = {
+            ideology = Absolute_Monarchy
+        }
+    }
+    POO_Karl_Anton = {
+        name = POO_Karl_Anton
+        portraits = {
+            civilian = {
+                large = GFX_portrait_Karl_Anton
+            }
+        }
+        country_leader = {
+            ideology = Absolute_Monarchy
+        }
+    }
+    
 }
